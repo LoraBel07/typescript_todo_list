@@ -13,12 +13,14 @@ export const TodoForm: React.FC<TodoFormProps> = ({ addTodo }) => {
 
 	const handleSubmit = (e: FormEvent<HTMLButtonElement>) => {
 		e.preventDefault();
+		addTodo(newTodo);
+		setNewTodo("");
 	}
 
 	return (
 		<form className="todo-form">
 			<input type="text" value={newTodo} className="todo-input" placeholder='Add a task' onChange={handleChange} />
-			<button type="submit" className='todo-button'>
+			<button type="submit" className='todo-button' onClick={handleSubmit}>
 				Add a task
 			</button>
 		</form> 
