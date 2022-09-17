@@ -2,7 +2,7 @@
 	font-family: 'Open sans';
 }
 body {
-	background: linear-gradient( 90deg, rgba(105, 20, 204, 1) 0%, rgba(44, 114, 251, 1) 100%);
+	background: linear-gradient( 90deg, rgb(174, 138, 216) 0%, rgb(94, 134, 214) 100%);
 }
 .todo-app {
 	display: flex;
@@ -32,7 +32,7 @@ h1 {
 	border-radius: 0 20px 20px 0;
 	cursor: pointer;
 	outline: none;
-	background: linear-gradient( 90deg, rgba(105, 20, 204, 1) 0%, rgba(44, 114, 251, 1) 100%);
+	background: linear-gradient( 90deg, rgb(174, 138, 216) 0%, rgb(94, 134, 214) 100%);
 	color: #fff;
 	text-transform: capitalize;
 }
